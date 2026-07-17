@@ -903,7 +903,50 @@ h1, h2, h3, h4 {
 
 /* Mobile */
 @media (max-width: 768px) {
-  .section { padding: 64px 0; }
+  .hero {
+    display: block;
+    min-height: auto;
+    align-items: initial;
+  }
+
+  .hero-visual {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    height: 220px;
+    transform: none;
+  }
+
+  .hero-visual::before {
+    display: none;
+  }
+
+ .hero-grid {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 24px 32px;
+}
+
+.hero-visual {
+  order: -1;
+}
+
+.hero-content {
+  order: 2;
+}
+  .hero-content h1 {
+    color: var(--color-ink);
+  }
+
+  .hero-subtext {
+    color: var(--color-muted);
+  }
+
+  .hero-trust .trust-item {
+    color: var(--color-ink);
+  }}
 
   .nav-toggle { display: flex; }
   .nav-links {
@@ -939,7 +982,6 @@ h1, h2, h3, h4 {
   .hero-buttons .btn { width: 100%; }
   .contact-quick-buttons { flex-direction: column; }
   .contact-quick-buttons .btn { width: 100%; }
-}
 
 /* ===== Trust Stats ===== */
 
