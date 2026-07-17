@@ -264,7 +264,7 @@ h1, h2, h3, h4 {
   padding: 8px;
   background: #ffffff;
   border-radius: 999px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 20px rgba(20, 58, 141, 0.60);
   flex: none;
 }
 
