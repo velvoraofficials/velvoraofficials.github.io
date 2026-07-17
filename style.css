@@ -946,7 +946,7 @@ h1, h2, h3, h4 {
 
   .hero-trust .trust-item {
     color: var(--color-ink);
-  }}
+  }
 
   .nav-toggle { display: flex; }
   .nav-links {
@@ -982,6 +982,7 @@ h1, h2, h3, h4 {
   .hero-buttons .btn { width: 100%; }
   .contact-quick-buttons { flex-direction: column; }
   .contact-quick-buttons .btn { width: 100%; }
+}
 
 /* ===== Trust Stats ===== */
 
